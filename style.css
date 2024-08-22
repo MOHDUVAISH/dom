@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+
+
+
+}
+.containar{
+    height: 350px;
+    width: 280px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    cursor:pointer ;
+   
+}
+
+.containar img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+
+.containar i{
+    font-size: 60px;
+    color: red;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% , 50%) scale(0);
+    opacity: 0;
+    transition: transform ease 0.8;
+}
